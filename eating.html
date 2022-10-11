@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Eating</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Lobster&family=Montserrat:wght@400;700&family=Nunito:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@400;700&family=Signika+Negative:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script
+			src="https://kit.fontawesome.com/2b467bcf54.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<header>
+			<div class="hero-img">
+				<div class="header-text">
+					<h1>Healthy Eating Healthy Lifestyle</h1>
+					<p>
+						We offer you a calorie calculator, healthy recipes, knowledge about
+						a healthy lifestyle and more!🥰
+					</p>
+				</div>
+				<div class="header-bg"></div>
+			</div>
+		</header>
+		<div class="wrapper">
+			<nav id="sidebar">
+				<button id="sidebarCollapse" class="hamburger">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+				</button>
+				<div class="navigation shadow active">
+					<ul class="nav-list">
+						<li class="nav-item"><a href="index.html">Home</a></li>
+						<li class="nav-item"><a href="#">Eating</a></li>
+						<li class="nav-item"><a href="workout.html">Workout</a></li>
+						
+					</ul>
+				</div>
+			</nav>
+			<main>
+				<section class="py-4">
+					<h2 class="text-center">
+						Kilka protych przepisów, które pomogą Ci zacząć twoją przygodę ze
+						zdrowym odżywianiem!
+					</h2>
+				</section>
+				<section class="carousel-recipe">
+					<div
+						id="carouselExampleControlsNoTouching"
+						class="carousel slide"
+						data-bs-touch="false"
+						data-bs-interval="false"
+					>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="container">
+									<div class="row m-0 justify-content-center">
+										<div class="col-lg-3 recipe-text recipe-text-left">
+											<h3>składniki</h3>
+											<ul class="ingredients-list">
+												<li>płatki owsiane błyskawiczne - 60g</li>
+												<li>2 jajka*</li>
+												<li>kakao słodkie - 20g*</li>
+												<li>woda ok 100 ml</li>
+											</ul>
+											<p>
+												*Zamiast słodkiego kakao można użyć ciemnego kakao i
+												dodać slodzik np. erytrytolu czy miodu.
+											</p>
+											<p>*Zamist jajka można użyć banana.</p>
+										</div>
+										<img
+											src="./img/omlet-owsiany.jpg"
+											alt="omlet czekoladowy"
+											class="d-lg-none recipe-img"
+										/>
+										<img
+											src="./img/omlet-owsiany.jpg"
+											alt="omlet czekoladowy"
+											class="d-none d-lg-block col-lg-4 recipe-img"
+										/>
+										<div class="col-lg-3 recipe-text recipe-text-right">
+											<h3>przepis</h3>
+											<p>
+												Wszystkie składniki dokładnie wymieszaj w jednym
+												naczyniu. Nagrzej patelnie po czym ustaw najmniejszy
+												gaz. Na patelnie wlej ciasto na omleta. Zrób sobie kawkę
+												i wróć za około 15 minut 😉 Po tym czasie przewróć omlet
+												na drugą stronę i zwiększ gaz i podsmaż omleta prez
+												około 30 sekund.
+											</p>
+											<p>
+												Danie przyrządzone z głównych skłądników ma około 440
+												kcal
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="container">
+									<div class="row m-0 justify-content-center">
+										<div class="col-lg-3 recipe-text recipe-text-left">
+											<h3>składniki</h3>
+											<ul class="ingredients-list">
+												<li>filet z łososia - 120g</li>
+												<li>mix sałat - 60g*</li>
+												<li>pomidory koktajlowe - 60g</li>
+												<li>olej - 10g</li>
+												<li>pieprz cytrynowy</li>
+												<li>sok z 1/4 cytryny</li>
+											</ul>
+											<p>
+												*może to być gotowy mix, ale możesz też użyć dowolnego
+												rodzaju sałaty
+											</p>
+										</div>
+										<img
+											src="./img/salmon.jpg"
+											alt="łosoś"
+											class="d-lg-none recipe-img"
+										/>
+										<img
+											src="./img/salmon.jpg"
+											alt="łosoś"
+											class="d-none d-lg-block col-lg-4 recipe-img"
+										/>
+										<div class="col-lg-3 recipe-text recipe-text-right">
+											<h3>przepis</h3>
+											<p>
+												Lorem ipsum dolor sit, amet consectetur adipisicing
+												elit. Sed rerum id neque eaque enim harum facilis,
+												voluptatem, ducimus quasi expedita excepturi consequatur
+												modi! Nesciunt animi quis iusto voluptates ipsam, minus,
+												esse dolor est ratione suscipit officiis, ducimus quae.
+												Facilis, doloribus.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="container">
+									<div class="row m-0 justify-content-center">
+										<div class="col-lg-3 recipe-text recipe-text-left">
+											<h3>składniki</h3>
+											<ul class="ingredients-list">
+												<li>mąka - 250g</li>
+												<li>1 łyżeczka proszku do pieczenia</li>
+												<li>cukier puder - 100g</li>
+												<li>2 jajka</li>
+												<li>roztopione masło - 50g</li>
+												<li>maślanka lub jogurt - 200ml</li>
+												<li>jagody - 125g</li>
+											</ul>
+										</div>
+										<img
+											src="./img/muffiny_z_jagodami_02_0.jpg"
+											alt="muffin z borówkami"
+											class="d-lg-none recipe-img"
+										/>
+										<img
+											src="./img/muffiny_z_jagodami_02_0.jpg"
+											alt="muffin z borówkami"
+											class="d-none d-lg-block col-lg-4 recipe-img"
+										/>
+										<div class="col-lg-3 recipe-text recipe-text-right">
+											<h3>przepis</h3>
+											<p>
+												Rozgrzać piekarnik do 200°C. Wyłożyć papierowymi
+												papilotkami blachę do pieczenia bądz blaszkę do
+												muffinek. Przesiać mąkę i proszek do pieczenia do dużej
+												miski i wymieszać z cukrem. W drugiej misce wymieszać
+												jajka, roztopione masło i maślankę. Mokre składniki
+												połączyć z suchymi następnie dodać jagody. Gotowe ciasto
+												nakładać łyżką do papilotek, a następnie piec 20-25
+												minut, aż babeczki się zarumienią. Ciasta powinno
+												wystarczyć na 18 muffinek.
+											</p>
+											<p>Jedna babeczka ma 164 kcal.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<button
+							class="carousel-control-prev"
+							type="button"
+							data-bs-target="#carouselExampleControlsNoTouching"
+							data-bs-slide="prev"
+						>
+							<span
+								class="carousel-control-prev-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button
+							class="carousel-control-next"
+							type="button"
+							data-bs-target="#carouselExampleControlsNoTouching"
+							data-bs-slide="next"
+						>
+							<span
+								class="carousel-control-next-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</section>
+				<section class="py-5 px-lg-3">
+					<h3>Jak prawidłowo podejść do kwestii zdrowego odżywiania</h3>
+					<p>
+						Stosować zasadę <strong>80/20.</strong> Czyli 80% naszej diety
+						powinny stanowić produkty nieprzetworzone, wartościowa żywność taka
+						jak: warzywa, owoce, produkty zbożowe, mleczne, mięso, ryby, orzechy
+						czy nasiona strączowe. Natomiast pozostałe 20% mogą stanowić
+						produkty "mniej zdrowe" takie jak pizza, czekolada, ciastka czy
+						chipsy. Należy pamiętać, że takie produkty mają zdecydowanie większe
+						ilości kilokalorii w 100 gramach produktu.
+					</p>
+					<h5>Dla porównania</h5> 
+					<ul>
+						<li>
+							60 gramów cukierków M&M's to tyle co 0,5 kg borówek - oba mają
+							około 300kcal
+						</li>
+						<li>
+							jeden cukierek typu Kasztanki czy Tiki Taki ma tyle samo kcal co 3
+							mandarynki czyli ok 100 kcal
+						</li>
+						<li>
+							100 gramów chipsów ma ok 520 kcal czyli tyle co kilogram jabłek
+						</li>
+						<li>lód Magnum ma ok 300 kcal tyle co 5 lodów Kaktus</li>
+						<li>
+							2 batony milky way ma tyle samo kcal co 600 gramów truskawek - ok
+							200 kcal
+						</li>
+					</ul>
+				</section>
+			</main>
+		</div>
+		<footer>
+			&copy; Copyright 2022 Healthy
+			<span class="icon-box">
+				<a href="#">
+					<i class="fab fa-facebook-square"></i>
+				</a>
+			</span>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+		<script src="./eat.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
